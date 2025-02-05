@@ -620,4 +620,7 @@ footer ul li {
         .shaded .img-border img{
             width: 118%;
         }
+        .slot-sect-2 img{
+            object-fit: cover;
+        }
 }

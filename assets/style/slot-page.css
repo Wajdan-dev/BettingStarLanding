@@ -173,8 +173,9 @@
 }
 
 .greenBtn {
-    box-shadow: 0px 1.79px 2.39px 0px #000000;
-    box-shadow: 0px 0px 38.1px -7px #00FF005E;
+    box-shadow: 
+  0px 1.79px 2.39px 0px #000000, 
+  0px 0px 38.1px -7px #00FF005E;
     border-radius: 9.76px;
     background: #139441;
     border: none;
@@ -188,6 +189,9 @@
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 628px) {
