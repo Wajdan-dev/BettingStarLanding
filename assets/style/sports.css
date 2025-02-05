@@ -149,7 +149,87 @@ body {
     align-items: center;
     justify-content: center;
 }
+.sport-section .container-fluid .holdRight{
+    
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+.mini-label-wrapper{
+    position: relative;
+    width: 100%;
+    
+    height: 34px;
+    
+}
 
+.minigame-labels{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    
+}
+.minilabel{
+    background: #292D2E;
+    box-shadow: 0px 5.07px 5.07px 0px #00000040;
+    max-width: 110px;
+    width: 100%;
+    border-radius: 5.15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 34px;
+    opacity: .5;
+    margin-top: -20px;
+    
+
+}
+.minilabel img{
+    display: inline-block;
+    
+    
+}
+.sport-p{
+    padding: 15px;
+    padding-bottom: 25px;
+    margin-bottom: -.5rem;
+}
+.sport-p p{
+    margin-bottom: 0;
+font-size: 14px;
+font-weight: 900;
+line-height: 28.9px;
+text-align: left;
+display: flex;
+align-items: center;
+gap: 10px;
+
+
+}
+.sport-p .red-txt{
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+    gap: 5px;
+
+}
+.sport-p .red-dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FF0000;
+}
+.sport-p .green-txt{
+    background-image: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 @media screen and (max-width: 1120px) {
     .slot-sect-2 img {
         height: auto !important;
@@ -190,6 +270,18 @@ body {
 
 }
 
+@media screen and (min-width: 768px) {
+    .sport-p{
+        border-top-left-radius: 6px;
+    }
+    .sport-p p{
+    font-size: 20px;
+
+    
+    
+    }
+
+}
 @media screen and (min-width: 1120px) {
     .slot-sect-2 .container-fluid{
         padding-inline: 0;
