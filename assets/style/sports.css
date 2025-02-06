@@ -149,27 +149,18 @@ body {
     align-items: center;
     justify-content: center;
 }
-.sport-section .container-fluid .holdRight{
-    
-    flex-direction: column;
-    overflow-x: hidden;
-    
-}
-.mini-label-wrapper{
-    position: relative;
-    width: 100%;
-    
-    height: 34px;
-    
-}
+
+
 
 .minigame-labels{
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    margin-block: 3rem;
+    padding-inline: 15px;
     display: flex;
-    gap: 10px;
+    column-gap: 10px;
+    row-gap: 3rem;
     align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .minilabel{
@@ -182,14 +173,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    height: 34px;
     opacity: .5;
     margin-top: -20px;
-    
+    min-height: 34px;
 
 }
 .minilabel img{
     display: inline-block;
+    
+    max-height: 30px;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
     
     
 }
