@@ -88,7 +88,7 @@ body {
     -webkit-background-clip: text;
     /* For Safari */
     color: transparent;
-    font-family: "Jost", serif !important;
+    /* font-family: "Jost", serif !important; */
     font-weight: 900;
     font-size: 32px;
 }
@@ -96,7 +96,7 @@ body {
 
 .circle-section p {
     font-size: 22px;
-    font-family: "Jost", serif !important;
+    /* font-family: "Jost", serif !important; */
     color: #FFFFFF;
 }
 
@@ -115,7 +115,7 @@ body {
     border-radius: 99px;
     font-size: 28.01px;
     line-height: 40.48px;
-    font-family: "Jost", serif;
+    /* font-family: "Jost", serif; */
     color: white;
 
 }
@@ -128,7 +128,7 @@ body {
     font-weight: 400;
     font-size: 26;
     line-height: 37.37px;
-    font-family: "Jost", serif;
+    /* font-family: "Jost", serif; */
     color: white;
 }
 
@@ -254,7 +254,7 @@ gap: 10px;
         border-radius: 99px;
         font-size: 28.01px;
         line-height: 40.48px;
-        font-family: "Jost", serif;
+        /* font-family: "Jost", serif; */
         color: white;
     }
 
