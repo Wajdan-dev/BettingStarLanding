@@ -87,14 +87,14 @@ body {
     -webkit-background-clip: text;
     /* For Safari */
     color: transparent;
-    font-family: "Jost", serif;
+    font-family: "Jost", serif !important;
     font-weight: 900;
     font-size: 32px;
 }
 
 .circle-section p {
     font-size: 22px;
-    font-family: "Jost", serif;
+    font-family: "Jost", serif !important;
     color: #FFFFFF;
 }
 
